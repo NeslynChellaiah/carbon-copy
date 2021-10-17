@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.code-outer-container {
+    background: rgb(171, 184, 195);
+    padding: 50px;
+    min-width: 213px;
+    max-width: 80%;
+    margin-top: 100px;
+}
+
+.code-container {
+    background: #151718;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px rgb(0,0,0,0.3);
+}
+
+.top-bar {
+    background: #151718;
+    border-radius: 5px;
+}
+
+.dot-container {
+    padding: 8px;
+}
+
+.dot {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin: 3px;
+    vertical-align: middle;
+}
+
+.dot-red {
+    background: #FF605C;
+}
+
+.dot-yellow {
+    background: #FFBD44;
+}
+
+.dot-green {
+    background: #00CA4E;
+}
+
+.CodeMirror-scroll {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
