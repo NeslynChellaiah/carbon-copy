@@ -4,7 +4,23 @@
     box-sizing: border-box;
 }
 .App {
-    display: flex;
-    justify-content: center;
     width: 100vw;
+    min-height: 100vh;
+    background: #4a536b;
+}
+
+.viewPort {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100vh;
+}
+
+.CodeMirror {
+    min-height: 40px;
+}
+
+.CodeMirror-lines {
+    margin-bottom: 15px;
 }

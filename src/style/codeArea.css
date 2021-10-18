@@ -5,11 +5,10 @@
 }
 
 .code-outer-container {
-    background: rgb(171, 184, 195);
+    background: #aee6dc;
     padding: 50px;
     min-width: 213px;
     max-width: 80%;
-    margin-top: 100px;
 }
 
 .code-container {
@@ -46,9 +45,4 @@
 
 .dot-green {
     background: #00CA4E;
-}
-
-.CodeMirror-scroll {
-    padding-bottom: 0;
-    margin-bottom: 0;
 }
