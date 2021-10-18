@@ -6,8 +6,8 @@ import CodeMirror from '@uiw/react-codemirror';
 
 const CodeArea = () => {
     return (
-        <>     
-            <div className="code-outer-container">
+        <>  
+            <div className="code-outer-container" id="code-outer-container">
                 <div className="code-container">
                     <div className="top-bar">
                         <div className="dot-container">
@@ -18,11 +18,15 @@ const CodeArea = () => {
                     </div>
                     <div id = "editor">
                         <CodeMirror
-                            value="return true;"
+                            value="//Write your code here"
+                            height="auto"
                             options={{
                                 theme: "dracula",
                                 keymap: "sublime",
-                                mode: "js"
+                                mode: "js",
+                                lineWrapping: true,
+                                cursorScrollMargin: -1,
+                                scrollbarStyle: "null",
                             }}
                         />
                     </div>
