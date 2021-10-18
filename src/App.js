@@ -8,11 +8,11 @@ import 'codemirror/theme/dracula.css';
 function App() {
   return (
     <div className="App">
-      <div className="logo">
-          <h1>Carbon</h1>
-          <h1>Copy</h1>
-      </div>
+      
       <div className="viewPort">
+        <div className="logo">
+            <h1>carbon-copy</h1>
+        </div>
         <CodeArea />
         <Capture />
       </div>

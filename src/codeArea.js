@@ -18,7 +18,7 @@ const CodeArea = () => {
                     </div>
                     <div id = "editor">
                         <CodeMirror
-                            value="//Write your code here"
+                            value="//Write your code here and download it as an image"
                             height="auto"
                             options={{
                                 theme: "dracula",

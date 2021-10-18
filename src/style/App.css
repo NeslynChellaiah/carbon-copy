@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,13 @@
     width: 100vw;
     min-height: 100vh;
     background: #4a536b;
+}
+
+.logo {
+    color: #ffea04;
+    margin: 30px;
+    font-family: 'Poppins', sans-serif;
+    width: max-content;
 }
 
 .viewPort {

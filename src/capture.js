@@ -1,4 +1,5 @@
 import * as htmlToImage from 'html-to-image';
+import './style/capture.css'
 
 const Capture = () => {
     const saveImage = (id) => {
@@ -15,7 +16,7 @@ const Capture = () => {
     }
     return (
         <>
-            <button onClick={()=>saveImage("code-outer-container")}>Test</button>
+            <button onClick={()=>saveImage("code-outer-container")}>Download Image</button>
         </>
     )
 }
