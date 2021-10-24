@@ -4,7 +4,7 @@ import 'codemirror/theme/dracula.css';
 import 'codemirror/keymap/sublime';
 import CodeMirror from '@uiw/react-codemirror';
 
-const CodeArea = () => {
+const CodeArea = ({lang}) => {
     return (
         <>  
             <div className="code-outer-container" id="code-outer-container">
@@ -18,12 +18,12 @@ const CodeArea = () => {
                     </div>
                     <div id = "editor">
                         <CodeMirror
-                            value="//Write your code here"
+                            value="//Write your code here and download it as an image"
                             height="auto"
                             options={{
                                 theme: "dracula",
                                 keymap: "sublime",
-                                mode: "js",
+                                mode: lang,
                                 lineWrapping: true,
                                 cursorScrollMargin: -1,
                                 scrollbarStyle: "null",
