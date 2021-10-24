@@ -4,7 +4,7 @@ import 'codemirror/theme/dracula.css';
 import 'codemirror/keymap/sublime';
 import CodeMirror from '@uiw/react-codemirror';
 
-const CodeArea = () => {
+const CodeArea = ({lang}) => {
     return (
         <>  
             <div className="code-outer-container" id="code-outer-container">
@@ -23,7 +23,7 @@ const CodeArea = () => {
                             options={{
                                 theme: "dracula",
                                 keymap: "sublime",
-                                mode: "js",
+                                mode: lang,
                                 lineWrapping: true,
                                 cursorScrollMargin: -1,
                                 scrollbarStyle: "null",

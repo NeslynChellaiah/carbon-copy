@@ -1,0 +1,14 @@
+.settings-container {
+    margin-bottom: 20px;
+    border: 2px solid #ffea04;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+}
+
+select {
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+}

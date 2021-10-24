@@ -21,9 +21,8 @@
 .viewPort {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .CodeMirror {
@@ -31,5 +30,15 @@
 }
 
 .CodeMirror-lines {
-    margin-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
+
+.CodeMirror-code > div {
+    padding-top: 5px;
+}
+
+.CodeMirror-cursor, .CodeMirror-selected {
+    margin-top: 5px;
+}
+
